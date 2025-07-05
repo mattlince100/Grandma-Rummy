@@ -1,0 +1,33 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #2d2d2d;
+  color: white;
+}
+#game {
+  margin-top: 30px;
+}
+.hand {
+  margin: 10px;
+}
+.pile {
+  display: inline-block;
+  margin: 10px;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.card {
+  display: inline-block;
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+}
+.hidden .card {
+  background-color: gray;
+  color: gray;
+}
